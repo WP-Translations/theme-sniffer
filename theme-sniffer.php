@@ -1,12 +1,12 @@
 <?php
 /**
- * Plugin Name:       Theme Sniffer
- * Plugin URI:        https://github.com/ernilambar/theme-sniffer
- * Description:       Theme Sniffer plugin which uses phpcs for automatic theme checking.
+ * Plugin Name:       WP-Translations Theme Sniffer
+ * Plugin URI:        https://github.com/WP-Translations/wp-translations-theme-sniffer
+ * Description:       WP-Translations Sniffer plugin which uses phpcs for automatic i18n theme checking.
  * Version:           0.1.4
- * Author:            Nilambar Sharma
- * Author URI:        http://nilambar.net
- * Text Domain:       theme-sniffer
+ * Author:            Nilambar Sharma, WP-Translations Team
+ * Author URI:        https://wp-translations.pro
+ * Text Domain:       wp-translations-theme-sniffer
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
  *
@@ -52,7 +52,7 @@ function theme_sniffer_check_php() {
 function theme_sniffer_error_activation_notice() {
 	?>
 	<div class="error">
-		<p><?php _e( 'Theme Sniffer requires PHP 5.3 or greater to function.', 'theme-sniffer' ); ?></p>
+		<p><?php _e( 'WP-Translations Theme Sniffer requires PHP 5.3 or greater to function.', 'theme-sniffer' ); ?></p>
 	</div>
 	<?php
 }
@@ -68,5 +68,5 @@ require_once THEME_SNIFFER_DIR . '/inc/helpers.php';
 require_once THEME_SNIFFER_DIR . '/inc/admin.php';
 require_once THEME_SNIFFER_DIR . '/inc/checks.php';
 
-// Load routes for theme sniffer files.
+// Load routes for WP-Translations theme sniffer files.
 require_once THEME_SNIFFER_DIR . '/inc/routes.php';
