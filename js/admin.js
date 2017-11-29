@@ -32,7 +32,7 @@ jQuery( document ).ready(function($) {
 			'hide_warning': $('input[name=hide_warning]').is(':checked'),
 			'raw_output': $('input[name=raw_output]').is(':checked'),
 			'minimum_php_version': $('select[name=minimum_php_version]').val(),
-			'wordpress-theme': $('input[name=wordpress-theme]').is(':checked'),
+			'wordpress-wpt': $('input[name=wordpress-wpt]').is(':checked'),
 			'wordpress-core': $('input[name=wordpress-core]').is(':checked'),
 			'wordpress-extra': $('input[name=wordpress-extra]').is(':checked'),
 			'wordpress-docs': $('input[name=wordpress-docs]').is(':checked'),

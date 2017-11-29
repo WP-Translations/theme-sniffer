@@ -15,8 +15,8 @@
 function theme_sniffer_get_standards() {
 
 	$output = array(
-		'wordpress-theme' => array(
-			'label'       => 'WordPress-Theme',
+		'wordpress-wpt' => array(
+			'label'       => 'WordPress-WPT',
 			'description' => __( 'Ruleset for WordPress theme review requirements (Required)', 'theme-sniffer' ),
 			'default'     => 1,
 		),

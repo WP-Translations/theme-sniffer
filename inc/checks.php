@@ -44,7 +44,7 @@ function theme_sniffer_do_sniff( $theme_slug, $args = array(), $file ) {
 	$values['standard'][] = THEME_SNIFFER_DIR . '/bin/phpcs.xml';
 
 	// Set default standard.
-	PHP_CodeSniffer::setConfigData( 'default_standard', 'WordPress-Theme', true );
+	PHP_CodeSniffer::setConfigData( 'default_standard', 'WordPress-WPT', true );
 
 	// Ignoring warnings when generating the exit code.
 	PHP_CodeSniffer::setConfigData( 'ignore_warnings_on_exit', true, true );
