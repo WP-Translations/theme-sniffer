@@ -1,6 +1,6 @@
 <?php
 /**
- * Theme Sniffers
+ * WP-Translations Sniffers
  *
  * @package Theme_Sniffer
  */

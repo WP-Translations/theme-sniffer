@@ -14,7 +14,7 @@
  * @return array Modified array of plugin action links.
  */
 function theme_sniffer_plugin_settings_link( $links ) {
-	$theme_sniffer_link = '<a href="themes.php?page=theme-sniffer">' . esc_attr__( 'Theme Sniffer Page', 'theme-sniffer' ) . '</a>';
+	$theme_sniffer_link = '<a href="themes.php?page=theme-sniffer">' . esc_attr__( 'WP-Translations Sniffer Page', 'theme-sniffer' ) . '</a>';
 	array_unshift( $links, $theme_sniffer_link );
 	return $links;
 }
@@ -27,8 +27,8 @@ add_filter( 'plugin_action_links_' . THEME_SNIFFER_BASENAME, 'theme_sniffer_plug
  */
 function theme_sniffer_admin_menu() {
 	add_theme_page(
-		esc_html__( 'Theme Sniffer', 'theme-sniffer' ),
-		esc_html__( 'Theme Sniffer', 'theme-sniffer' ),
+		esc_html__( 'WP-T Sniffer', 'theme-sniffer' ),
+		esc_html__( 'WP-T Sniffer', 'theme-sniffer' ),
 		'manage_options',
 		'theme-sniffer',
 		'theme_sniffer_render_admin_page'
@@ -44,7 +44,7 @@ add_action( 'admin_menu', 'theme_sniffer_admin_menu' );
 function theme_sniffer_render_admin_page() {
 	?>
 	<div class="wrap theme-sniffer">
-		<h1><?php esc_html_e( 'Theme Sniffer', 'theme-sniffer' ); ?></h1>
+		<h1><?php esc_html_e( 'WP-Translations Sniffer', 'theme-sniffer' ); ?></h1>
 		<hr />
 		<?php theme_sniffer_render_form(); ?>
 	</div>
