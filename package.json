@@ -1,7 +1,7 @@
 {
-  "name": "theme-sniffer",
+  "name": "wp-translations-theme-sniffer",
   "version": "0.1.4",
-  "description": "Theme Sniffer plugin using sniffs. `WordPress-Theme` standard is used from WPTRT/WordPress-Coding-Standards.",
+  "description": "WP-Translations Theme Sniffer plugin using i18n sniffs. `WordPress-WPT` standard is a custom ruleset from WordPress-Coding-Standards.",
   "main": "index.js",
   "dependencies": {
     "stylelint": "^7.10.1"
@@ -12,12 +12,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ernilambar/theme-sniffer.git"
+    "url": "git+https://github.com/WP-Translations/theme-sniffer.git"
   },
   "author": "Nilambar Sharma <nilambar@outlook.com>",
   "license": "GPL-2.0",
   "bugs": {
-    "url": "https://github.com/ernilambar/theme-sniffer/issues"
+    "url": "https://github.com/WP-Translations/theme-sniffer/issues"
   },
-  "homepage": "https://github.com/ernilambar/theme-sniffer#readme"
+  "homepage": "https://github.com/WP-Translations/theme-sniffer#readme"
 }
